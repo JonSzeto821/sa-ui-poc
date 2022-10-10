@@ -18,6 +18,9 @@ const ServiceAccounts: FC = () => {
         className="pf-m-padding-on-xl"
         padding={{ default: "noPadding" }}
       >
+        <h1>
+          <strong>EXTERNALIZED (NEW) Service accounts UI POC</strong>
+        </h1>
         <TextContent>
           <Text component="h1"> {t("serviceAccount.service_accounts")}</Text>
           <Text component="p">
