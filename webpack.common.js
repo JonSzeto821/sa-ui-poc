@@ -125,13 +125,13 @@ module.exports = (env, argv) => {
           isProduction ? "[chunkhash:8]" : ""
         }.js`,
         exposes: {
-          "./OpenshiftStreams":
-            "./src/app/modules/OpenshiftStreams/OpenshiftStreamsFederated",
-          "./ServiceAccounts":
+          // "./OpenshiftStreams":
+          //   "./src/app/modules/OpenshiftStreams/OpenshiftStreamsFederated",
+          "./ServiceAccountsPOC":
             "./src/app/modules/ServiceAccounts/ServiceAccountsFederated",
-          "./InstanceDrawer":
-            "./src/app/modules/InstanceDrawer/InstanceDrawerFederated",
-          "./KasModalLoader": "./src/app/modals/KasModalLoaderFederated",
+          // "./InstanceDrawer":
+          //   "./src/app/modules/InstanceDrawer/InstanceDrawerFederated",
+          // "./KasModalLoader": "./src/app/modals/KasModalLoaderFederated",
         },
         shared: {
           ...dependencies,
